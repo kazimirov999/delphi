@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] numbers = { 4, 6, 8, 3, 7, 9, 2, 12};
-        System.out.println(findPairThatFormNumber(numbers, 11));
+        int[] numbers = { 4, 6, 8, 3, 7, 9, 2, 12, 4, 7};
+        System.out.println(findPairThatFormNumber(numbers, 11)); // [[2, 9], [3, 8], [4, 7]]
     }
 
     public static List<List<Integer>> findPairThatFormNumber(int[] numbers, int n) {
